@@ -1,26 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
-//K N Nithin
+import { Routes, Route } from "react-router-dom"
+import Home from "./Home"
+import Notfound from "./Notfound" 
+import { Link } from "react-router-dom";
+import "./App.css";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <nav>
+          <div class="logo">PoL</div>
+          <ul>
+            <li><Link to="Notfound">Home</Link></li>
+            <li><Link to="Notfound">User</Link></li>
+            <li><Link to="Notfound">LandInspector</Link></li>
+            <li><Link to="Notfound">SC_Owner</Link></li>
+          </ul>
+     </nav>
+     <Routes>
+        <Route path="/" element={ <Home/> } />
+        <Route path="Notfound" element={ <Notfound/> } />
+        <Route path="Notfound" element={ <Notfound/> } />
+        <Route path="Notfound" element={ <Notfound/> } />
+      </Routes>
     </div>
   );
 }
 
-export default App;
-//Team Binary Wizards
+export default App
