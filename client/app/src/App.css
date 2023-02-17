@@ -18,6 +18,9 @@ nav:after{
   display: table;
 
 }
+
+
+
 nav ul{
   float:left;
   list-style: none;
@@ -61,17 +64,17 @@ nav ul li:hover > ul {
 }
 nav .logo{
   float:left;
-  color: white;
+  color: whitesmoke;
   font-size: 30px;
   font-weight: 600;
   line-height: 70px;
   padding-left: 60px;
   text-align: center;
   display: block;
-  font-family: Lobster;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .logo:hover{
-  color:yellow;
+  color:green;
   cursor: pointer;
 }
 nav ul ul li{
@@ -99,8 +102,91 @@ nav ul ul a:hover{
     display: block;
     text-align: right;
     margin-top: 0%;
+    margin-right:20px;
     position: absolute;
     top: 20%;
-    right: 3%;
+    right: 7%;
     width:100%;
+}
+
+.banner {
+  height: 40rem;
+  margin-top: 2rem;
+  background: #f3f3f3;
+}
+
+.button, .button-link, .button-muted, .provider-facebook, .provider-github, .provider-google {
+  background: #101010;
+  padding: 1.6rem;
+  border: 1px solid #101010;
+  color: #fff;
+  font-weight: 700;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+
+
+
+.text
+{
+  font-size: 2.7em;
+    font-weight: 600;
+}
+
+
+.gettouchbtn
+{
+  border: 1.5px solid #82A4E3;
+    background: #82A4E3;
+    color: #fff !important;
+    transform: scale(1.05);
+}
+
+.section-heading
+{
+width: 100%;
+    padding: 6vh 0 7vw 0vw;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 78px
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  margin-top:20px;
+}
+
+
+section.Product {
+  width: 100%;
+  float: left;
+  padding: 10px 0;
+}
+section.Product .Product-box .details {
+  width: 100%;
+  float: left;
+  padding-top: 8%;
+}
+
+section.Product .Product-box .icon img {
+  height: 180px;
+}
+
+.btnlogin
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+ 
 }

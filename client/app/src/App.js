@@ -1,26 +1,33 @@
 import { Routes, Route } from "react-router-dom"
 import Home from "./Home"
 import Notfound from "./Notfound" 
+import User from "./Components/User";
+import Landinspector from "./Components/Landinspector";
+import Manager from "./Components/Manager";
+import Footer from "./Components/Footer";
 import { Link } from "react-router-dom";
 import "./App.css";
 function App() {
   return (
     <div className="App">
       <nav>
-          <div class="logo">PoL</div>
+          <div class="logo"><a paddingleft="2" href="/">Land Dekho</a></div>
           <ul>
-            <li><Link to="Notfound">Home</Link></li>
-            <li><Link to="Notfound">User</Link></li>
-            <li><Link to="Notfound">LandInspector</Link></li>
-            <li><Link to="Notfound">SC_Owner</Link></li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/user">User</Link></li>
+            <li><Link to="/inspector">LandInspector</Link></li>
+            <li><Link to="/manager">Manager</Link></li>
           </ul>
      </nav>
+     
+      
      <Routes>
-        <Route path="/" element={ <Home/> } />
-        <Route path="Notfound" element={ <Notfound/> } />
-        <Route path="Notfound" element={ <Notfound/> } />
-        <Route path="Notfound" element={ <Notfound/> } />
+        <Route exact path="/" element={ <Home/> } />
+        <Route path="/user" element={ <User/> } />
+        <Route path="/inspector" element={ <Landinspector/> } />
+        <Route path="/manager" element={ <Manager/> } />
       </Routes>
+      <Footer/>
     </div>
   );
 }
