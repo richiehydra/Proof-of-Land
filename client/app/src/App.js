@@ -5,6 +5,7 @@ import User from "./Components/User";
 import Landinspector from "./Components/Landinspector";
 import Manager from "./Components/Manager";
 import Footer from "./Components/Footer";
+import Login from "./Components/Login";
 import { Link } from "react-router-dom";
 import "./App.css";
 function App() {
@@ -17,6 +18,7 @@ function App() {
             <li><Link to="/user">User</Link></li>
             <li><Link to="/inspector">LandInspector</Link></li>
             <li><Link to="/manager">Manager</Link></li>
+            <li><Link to="/login">Register</Link></li>
           </ul>
      </nav>
      
@@ -26,6 +28,7 @@ function App() {
         <Route path="/user" element={ <User/> } />
         <Route path="/inspector" element={ <Landinspector/> } />
         <Route path="/manager" element={ <Manager/> } />
+        <Route path="/login" element={ <Login/> } />
       </Routes>
       <Footer/>
     </div>
