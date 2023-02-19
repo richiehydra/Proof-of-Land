@@ -1,4 +1,5 @@
-A Decentralized Land Registraion and Selling Web Application Platform Functionalities:
+A Decentralized Land Registraion and Selling Web Application Platform 
+Functionalities:
 *Users can Register to Buy/Sell the Land
 *Users get Verified by LandInspector to Prevent Unauthorized Users to access the Platform 
 *Users Once getVerfied Can add land to Sell *Further the land Should also get Verified By Inspector before anyone willing to buy it
