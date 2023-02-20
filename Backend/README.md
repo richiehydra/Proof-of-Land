@@ -8,7 +8,7 @@ A Decentralized Land Registraion and Selling  Web Application Platform
    *Registered User can Buy the Land By Paying Specified Price
    *Owner Co-ordinates all Functionalities
 
-   Problem:
+   Problem Statement:
    During the time of purchasing the land we come across many discrepcency with
    respect to actual ownership of the land such as seller can sell that land to multiple
    customers as a result it leads to confusion and further lead to confliction among
